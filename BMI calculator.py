@@ -3,15 +3,15 @@
 def bmicalculator ():
     
     print ("Hello! Welcome to the BMI Calculator")
-    weight =  input ('What is your Weight')
+    weight =  input ('What is your Weight (Kg) ')
     while weight == "":
         print('Please Enter your weight')
-        weight = input ('What is your Weight') 
+        weight = input ('What is your Weight (Kg) ') 
         
-    height = input ('What is your height')
+    height = input ('What is your height(cm) ')
     while height == "":
         print(' Please Enter your Height')
-        height = input ('What is your Height')
+        height = input ('What is your Height (cm) ')
     
     Weight = float(weight)
     Height = float (height)
