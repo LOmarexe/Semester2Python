@@ -1,9 +1,9 @@
 def calculator():
     # Input the expression
-    expression = input("Enter your calculation: ")
+    UserAnswer = input("Enter your calculation: ")
 
     # Evaluate the expression and print the result
-    result = eval(expression)
+    result = eval(UserAnswer)
     print(f'The result is: {result}')
 
 
@@ -16,4 +16,4 @@ while answer == 'Y':
     calculator()
     answer = input("Want to calculate something again? (Y/N): ")
 
-print('Have a good day!')
+print('Have a good day!') 
